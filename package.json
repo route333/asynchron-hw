@@ -1,0 +1,24 @@
+{
+  "name": "asynchron-hw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/*.html --public-url /asynchron-hw",
+    "pre-start": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/route333/asynchron-hw.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/route333/asynchron-hw/issues"
+  },
+  "homepage": "https://github.com/route333/asynchron-hw#readme",
+  "dependencies": {
+    "parcel": "^2.11.0"
+  }
+}
