@@ -20,5 +20,3 @@ function writeScore() {
 }
 
 gameElement.addEventListener("click", writeScore);
-
-window.addEventListener('click', startGame);
